@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <title>Habits</title>
+</head>
+<body>
+    <header>
+        <img src="IMGs/logo.svg" alt="Logomarca do aplicativo Habits">
+        <button>
+            <img src="IMGs/plus.svg" alt="Sinal de mais roxo"> 
+            <div>Registrar o meu dia</div>
+        </button>
+    </header>
+    <form id="form-habits">
+        <div class="habits">
+            <div class="habit" data-name="goodmorning" title="Bom dia">⏰<span>04:15</span></div>
+            <div class="habit" data-name="water1" title="Beber água">💧<span>04:20</span></div>
+            <div class="habit" data-name="multivitamin" title="multivitaminico">💊<span>04:20</span></div>
+            <div class="habit" data-name="egg" title="Ovo">🍳<span>04:25</span></div>
+            <div class="habit" data-name="coffee" title="Café">☕<span>04:30</span></div>
+            <div class="habit" data-name="gym" title="Academia">💪<span>05:00</span></div>
+            <div class="habit" data-name="water2" title="Beber água">💧<span>05:50</span></div>
+            <div class="habit" data-name="bath" title="Tomar banho">🚿<span>05:50</span></div>
+            <div class="habit" data-name="english" title="Estudar Inglês">📗<span>06:00</span></div>
+            <div class="habit" data-name="dev" title="Estudar Programação">💻<span>06:30</span></div>
+            <div class="habit" data-name="water3" title="Beber água">💧<span>07:30</span></div>
+            <div class="habit" data-name="work" title="Inicio do Trabalho">👩‍💻<span>08:00</span></div>
+            <div class="habit" data-name="sleep" title="Dormir 8h por dia">💤<span>21:00</span></div>
+        </div>
+            <div class="days"></div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
